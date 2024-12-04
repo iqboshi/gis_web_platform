@@ -39,6 +39,12 @@ import { House, MapLocation, Menu } from '@element-plus/icons-vue'
             </el-icon>
             <span>路径规划</span>
           </ElMenuItem>
+          <ElMenuItem index="/imageSynthesis">
+            <el-icon>
+              <Picture />
+            </el-icon>
+            <span>原始图像合成</span>
+          </ElMenuItem>
         </ElSubMenu>
 
         <ElSubMenu index="/2">

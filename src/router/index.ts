@@ -8,6 +8,7 @@ import PositionPointsManagement from '@/views/PositionPointsManagement.vue'
 import SoilRemove from '@/views/SoilRemove.vue'
 import TasksManagement from '@/views/TasksManagement.vue'
 import FeatureSelect from '@/views/FeatureSelect.vue'
+import ImageSynthesis from '@/views/ImageSynthesis.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -34,6 +35,12 @@ const router = createRouter({
           path: '/pathPlanning',
           component: PathPlanningView,
           meta: { title: '路径规划' },
+        },
+        {
+          name: 'imageSynthesis',
+          path: '/imageSynthesis',
+          component: ImageSynthesis,
+          meta: { title: '原始图像合成' },
         },
         {
           name: 'positionPoints',
