@@ -99,7 +99,7 @@ const handleRemove = file => {
         </el-upload>
       </el-form-item>
       <div style="text-align: right">
-        <el-button type="primary" @click="onBtn" size="small">添加</el-button>
+        <el-button type="primary" @click="onBtn" size="small">合成</el-button>
       </div>
     </el-form>
     <el-divider />
